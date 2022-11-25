@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+<h2>le nombre d'hôtes et de reviews par quartiers </h2>
+{{dt_html|safe}}
+<h2>le pourcentage d'acceptation </h2>
+{{acceptation}}
+<h2>le pourcentage de réponse moyenne des hôtes</h2>
+{{reponse}}
+<h2>le pourcentage  des hotes qui ont une vérification par : téléphone</h2>
+{{tel}}
+<h2>le pourcentage  des hotes qui ont une vérification par : email</h2>
+{{mail}}
+<h2>le pourcentage  des hotes qui ont une vérification par : email_pro</h2>
+{{pro}}
+<h2>le nombre moyen d'amenities et l'écart type en fonction du type de room</h2>
+{{amenities|safe}}
+<h2>le prix median par type de room</h2>
+{{median|safe}}
+<h2>la corrélation entre le nombre de reviews et la taille de la description en terme de nombre de caractères</h2>
+{{correlation|safe}}
+<h2>le pourcentage général de séjour où le nom de l'host est identique au nom du reviewer</h2>
+{{faux_com|safe}}
+</div>
+
+{% endblock content %}
