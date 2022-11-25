@@ -1,4 +1,5 @@
 .env
+airbnb_app/amesterdam/
 # Créé par https://www.toptal.com/developers/gitignore/api/python,django,linux
 # Modifier à https://www.toptal.com/developers/gitignore?templates=python,django,linux
 
